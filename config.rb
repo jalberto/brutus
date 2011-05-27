@@ -1,59 +1,17 @@
-# Automatic sitemaps
-# activate :slickmap
+theme_name = "brutus"
+theme_path = "../brutus-online/sites/all/themes"
 
-# CodeRay syntax highlighting in Haml
-# activate :code_ray
+# Require any additional compass plugins here.
 
-# Automatic image dimension calculations
-# activate :automatic_image_sizes
+# Set this to the root of your project when deployed:
+http_path       = "/"
+css_dir         = theme_name + "/css"
+sass_dir        = "src/sass"
+images_dir      = theme_name + "/images"
+javascripts_dir = theme_name + "/javascripts"
+# To enable relative paths to assets via compass helper functions. Uncomment:
+relative_assets = true
 
-# Per-page layout changes
-# With no layout
-# page "/path/to/file.html", :layout => false
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
+sass_options    = {:syntax => :sass}
+output_style    = :compressed
 
-# Helpers
-helpers do
-  def some_helper(*args)
-    "Helping"
-  end
-end
-
-set :build_dir, "brutus"
-
-# Change the CSS directory
-# set :css_dir, "alternative_css_directory"
-
-
-
-# Change the JS directory
- set :js_dir, "javascript"
-
-
-
-# Change the images directory
-# set :images_dir, "alternative_image_directory"
-
-
-# Build-specific configuration
-configure :build do
-  # For example, change the Compass output style for deployment
-  # activate :minify_css
-  
-  # Minify Javascript on build
-  # activate :minify_javascript
-  
-  # Shrink/smush PNG/JPEGs on build
-  # activate :smush_pngs
-  
-  # Enable cache buster
-  # activate :cache_buster
-
-  # Generate ugly/obfuscated HTML from Haml
-  # activate :ugly_haml
-
-  
-  # Or use a different image path
-  # set :http_path, "/Content/images/"
-end
