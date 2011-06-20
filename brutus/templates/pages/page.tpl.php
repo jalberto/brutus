@@ -32,11 +32,11 @@
 
       <div id="logo-title">
 	
-        <?php if (!empty($logo)): ?>
+       <!-- <?php if (!empty($logo)): ?>
         <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?>" rel="home" id="logo">
             <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
           </a>
-        <?php endif; ?>
+        <?php endif; ?>-->
 
         <div id="name-and-slogan">
           <?php if (!empty($site_name)): ?>

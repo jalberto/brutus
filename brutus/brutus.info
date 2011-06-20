@@ -36,6 +36,7 @@ scripts[] = js/jquery.beforeafter.min.js
 skinr[col-width][title] = Width (16 column grid)
 skinr[col-width][type] = select
 skinr[col-width][features][] = block
+skinr[col-width][features][] = views_view
 skinr[col-width][options][1][label] = 1 unit wide 
 skinr[col-width][options][1][class] = col1
 skinr[col-width][options][2][label] = 2 unit wide 
@@ -101,6 +102,39 @@ skinr[brutus-multicol][options][1][label] = 2-column list/menu (50%/50%)
 skinr[brutus-multicol][options][1][class] = brutus-2-col-list clearfix
 skinr[brutus-multicol][options][2][label] = 3-column list/menu (33%/33%/33%)
 skinr[brutus-multicol][options][2][class] = brutus-3-col-list clearfix
+
+; List Inline
+skinr[brutus-inline][title] = List Inline
+skinr[brutus-inline][type] = checkboxes
+skinr[brutus-inline][description] = Put items in lists (menus, list views, etc.) in one column
+skinr[brutus-inline][features][] = block
+skinr[brutus-inline][features][] = panels_display
+skinr[brutus-inline][features][] = panels_pane
+skinr[brutus-inline][features][] = panels_panel
+skinr[brutus-inline][features][] = views_view
+skinr[brutus-inline][options][1][label] = Inline list
+skinr[brutus-inline][options][1][class] = brutus-inline
+
+; Block positioning
+skinr[brutus-position][title] = Block position
+skinr[brutus-position][type] = select
+skinr[brutus-position][description] = Change the position of this block (default is to float to the left)
+skinr[brutus-position][features][] = block
+skinr[brutus-position][options][1][label] = Float block to the right
+skinr[brutus-position][options][1][class] = brutus-right
+skinr[brutus-position][options][2][label] = Position block in the center
+skinr[brutus-position][options][2][class] = brutus-center
+skinr[brutus-position][options][3][label] = Clear floats (block drops to a new line)
+skinr[brutus-position][options][3][class] = brutus-clear
+
+; Content alignment
+skinr[brutus-alignment][title] = Content alignment
+skinr[brutus-alignment][type] = select
+skinr[brutus-alignment][description] = Default is left aligned content
+skinr[brutus-alignment][options][1][label] = Center align content within its container
+skinr[brutus-alignment][options][1][class] = brutus-center-content
+skinr[brutus-alignment][options][2][label] = Right align content within its container
+skinr[brutus-alignment][options][2][class] = brutus-right-content
 
 
 settings[brutus_zen_tabs]             = 1
