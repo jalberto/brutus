@@ -34,11 +34,11 @@
 
       <div id="logo-title">
 	
-       <!-- <?php if (!empty($logo)): ?>
+       <?php if (!empty($logo)): ?>
         <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?>" rel="home" id="logo">
             <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
           </a>
-        <?php endif; ?>-->
+        <?php endif; ?>
 
         <div id="name-and-slogan">
           <?php if (!empty($site_name)): ?>
@@ -59,14 +59,14 @@
         </div>
       <?php endif; ?>
 
-      <?php // Uncomment to add the search box.// print $search_box; ?>
+      <?php print $search_box; ?>
 
     </div> <!-- /header -->
 
     <?php if (!empty($primary_links) || !empty($secondary_links)): ?>
       <div id="navigation" class="menu <?php if (!empty($primary_links)) { print "with-main-menu"; } if (!empty($secondary_links)) { print " with-sub-menu"; } ?>">
         <?php if (!empty($primary_links)){ print theme('links', $primary_links, array('id' => 'primary', 'class' => 'links main-menu')); } ?>
-        <?php// if (!empty($secondary_links)){ print theme('links', $secondary_links, array('id' => 'secondary', 'class' => 'links sub-menu')); } ?>
+        <?php if (!empty($secondary_links)){ print theme('links', $secondary_links, array('id' => 'secondary', 'class' => 'links sub-menu')); } ?>
       </div> <!-- /navigation -->
     <?php endif; ?>
 
