@@ -4,6 +4,7 @@ screenshot = images/screenshot.gif
 core = "6.x"
 project = "brutus"
 engine = phptemplate
+version = "6.22"
 
 regions[header_top] = header top 
 regions[header] = Header
