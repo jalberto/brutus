@@ -1,6 +1,6 @@
 @import "compass/css3/opacity"
 @import "partials/reset"
-//@import "partials/grid"
+@import "partials/grid"
 @import "partials/default"
 @import "partials/layout"
 @import "partials/header"
@@ -47,8 +47,8 @@
 
 #sidebar-first
   width: $col3
-  @include first
   margin: 0 $pad
+  @include first
 
 .two-sidebars .center, .sidebar-right .center
   margin-right: $col3 + 20px
@@ -59,6 +59,8 @@
   @include last
 
 /* Columns Inner
+.block-inner
+  margin: 0 10px
 
 .inner
   padding: 0
