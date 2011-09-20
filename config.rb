@@ -1,5 +1,5 @@
 theme_name = "brutus"
-theme_path = "../brutus-online/sites/all/themes"
+theme_path = "" # "../your drupal/sites/all/themes/"
 
 # Require any additional compass plugins here.
 
