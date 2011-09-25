@@ -13,7 +13,7 @@
   </head>
 
   <body id="<?php print $body_id; ?>" class="<?php print $body_classes; ?>">
-    <div id="skip"><a href="#content"><?php print t('Skip to Content'); ?></a> <a href="#navigation"><?php print t('Skip to Navigation'); ?></a></div>  
+    <div id="skip"><a class="btn-pajama" href="#"><div id="pajama">GRID</div></a><a href="#content"><?php print t('Skip to Content'); ?></a> <a href="#navigation"><?php print t('Skip to Navigation'); ?></a></div>  
     
     <!-- HEADER TOP -->
     <?php if ($header_top): ?>

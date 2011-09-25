@@ -31,6 +31,7 @@ features[] = secondary_links
 
 stylesheets[all][] = css/brutus.css
 scripts[] = js/browser.js
+scripts[] = js/custom.js
 scripts[] = js/jquery.beforeafter.min.js
 
 ; Widths columns, 960px/col
