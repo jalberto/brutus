@@ -13,5 +13,5 @@ javascripts_dir = theme_name + "/javascripts"
 relative_assets = true
 
 sass_options    = {:syntax => :sass}
-output_style    = :compressed
+# output_style    = :compressed
 
