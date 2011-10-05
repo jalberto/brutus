@@ -1,1 +1,81 @@
-div.admin .left,div.admin .right{width:46%}ul.primary,ul.secondary{width:100%;width:auto}ul.primary li a,ul.secondary li a{display:inline;display:inline-block}ul.primary li a .tab,ul.secondary li a .tab{display:inline;display:inline-block}ul.primary li a{background:url(../images/tabs/tab-left-ie6.png) no-repeat left -38px}ul.primary li a .tab{background:url(../images/tabs/tab-right-ie6.png) no-repeat right -38px}ul.primary li a:hover{cursor:pointer;color:#555;text-decoration:none;background-position:left -76px}ul.primary li a:hover .tab{background-position:right -76px}ul.primary li.active a{background:url(../images/tabs/tab-left-ie6.png) no-repeat left 0}ul.primary li.active a:hover{background:url(../images/tabs/tab-left-ie6.png) no-repeat left 0}ul.primary li.active a .tab,ul.primary li.active a:hover .tab{background:url(../images/tabs/tab-right-ie6.png) no-repeat right 0}ul.secondary li a:hover{cursor:pointer;color:#555;text-decoration:none}#content tr.even th,#content tr.even td{border-bottom:1px solid #ccc}#content tr.odd th,#content tr.odd td{border-bottom:1px solid #ccc}
+/* Yes, we all hate IE6. */
+/* Fix the admin page in ie6. */
+/* line 5, ../sass/ie6.sass */
+/* line 6, ../../../src/sass/ie/ie6.sass */
+div.admin .left, div.admin .right {
+  width: 46%;
+}
+
+/* Tabs CSS - IE 5 and 6 don't support PNGs with alpha transparency. */
+/* line 10, ../sass/ie6.sass */
+/* line 13, ../../../src/sass/ie/ie6.sass */
+ul.primary, ul.secondary {
+  width: 100%;
+  width: auto;
+}
+/* line 16, ../../../src/sass/ie/ie6.sass */
+ul.primary li a, ul.secondary li a {
+  display: inline;
+  display: inline-block;
+}
+/* line 19, ../../../src/sass/ie/ie6.sass */
+ul.primary li a .tab, ul.secondary li a .tab {
+  display: inline;
+  display: inline-block;
+}
+/* line 23, ../../../src/sass/ie/ie6.sass */
+ul.primary li a {
+  background: url(../images/tabs/tab-left-ie6.png) no-repeat left -38px;
+}
+/* line 25, ../../../src/sass/ie/ie6.sass */
+ul.primary li a .tab {
+  background: url(../images/tabs/tab-right-ie6.png) no-repeat right -38px;
+}
+/* line 27, ../../../src/sass/ie/ie6.sass */
+ul.primary li a:hover {
+  cursor: pointer;
+  color: #555555;
+  text-decoration: none;
+  background-position: left -76px;
+}
+/* line 32, ../../../src/sass/ie/ie6.sass */
+ul.primary li a:hover .tab {
+  background-position: right -76px;
+}
+/* line 34, ../../../src/sass/ie/ie6.sass */
+ul.primary li.active a {
+  background: url(../images/tabs/tab-left-ie6.png) no-repeat left 0;
+}
+/* line 36, ../../../src/sass/ie/ie6.sass */
+ul.primary li.active a:hover {
+  background: url(../images/tabs/tab-left-ie6.png) no-repeat left 0;
+}
+/* line 38, ../../../src/sass/ie/ie6.sass */
+ul.primary li.active a .tab, ul.primary li.active a:hover .tab {
+  background: url(../images/tabs/tab-right-ie6.png) no-repeat right 0;
+}
+/* line 40, ../../../src/sass/ie/ie6.sass */
+ul.secondary li a:hover {
+  cursor: pointer;
+  color: #555555;
+  text-decoration: none;
+}
+
+/* line 14, ../sass/ie6.sass */
+/* line 21, ../sass/ie6.sass */
+/* line 23, ../sass/ie6.sass */
+/* line 25, ../sass/ie6.sass */
+/* line 30, ../sass/ie6.sass */
+/* line 33, ../sass/ie6.sass */
+/* line 35, ../sass/ie6.sass */
+/* line 41, ../sass/ie6.sass */
+/* Drupal admin tables */
+/* line 49, ../sass/ie6.sass */
+/* line 66, ../../../src/sass/ie/ie6.sass */
+#content tr.even th, #content tr.even td {
+  border-bottom: 1px solid #cccccc;
+}
+/* line 69, ../../../src/sass/ie/ie6.sass */
+#content tr.odd th, #content tr.odd td {
+  border-bottom: 1px solid #cccccc;
+}
